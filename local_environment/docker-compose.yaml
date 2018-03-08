@@ -1,0 +1,9 @@
+# Servicio de MySQL:
+mysql:
+  image: mysql:5.6
+  ports:
+    - "6004:3306" # Bind host port 6004 to MySQL port 3306
+  environment:
+    MYSQL_ROOT_PASSWORD: 50m3r00tp455
+    MYSQL_USER: naranya
+    MYSQL_PASSWORD: 50m3p455
